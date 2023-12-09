@@ -1,0 +1,36 @@
+.nav-link:hover{
+    background-color: grey;
+}
+.card-body-icon{
+    position: absolute;
+    z-index: 0;
+    top: 25px;
+    right: 4px;
+    opacity: 0.4;
+    font-size: 50px;
+}
+#nemiw{
+    margin-bottom:20px;
+    }
+#dasboard{
+    width: 18rem;   
+    margin-bottom:20px;
+}
+  .save-btn:hover {
+    color: green; 
+    background-color: transparent; 
+    border-color: green; 
+  }
+  .list-group-item.checked {
+    text-decoration: line-through; 
+    opacity: 0.6; 
+}
+
+.list-group-item .btn-danger {
+    display: none; 
+}
+
+.list-group-item:hover .btn-danger {
+    display: inline-block;
+}
+  

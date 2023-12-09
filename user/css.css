@@ -1,0 +1,100 @@
+.navbar1{
+    background-color: #0d6efd;
+    width : 1400px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+#indonesia{
+    position: absolute;
+    top: 8px;
+    right: 250px;
+    height: 30px; 
+}
+.teks1 {
+    position: absolute;
+    top: 11px;
+    right: 185px;
+    font-size: 13px;
+}
+
+.teks2 {
+    position: absolute;
+    top: 11px;
+    right: 70px;
+    font-size: 13px;
+}
+
+#amerika{
+    position: absolute;
+    top: 8px;
+    right: 120px;
+    height: 30px; ; 
+}
+
+#logo{
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 75px;
+    height: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+#carouselExampleDark {
+    position: relative;
+    width: 90%; /* Sesuaikan lebar carousel sesuai kebutuhan */
+    height: 60px;
+    margin: 0 auto; /* Membuat carousel berada di tengah */
+  }
+  
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    position: relative;
+    width: 100%;
+    text-align: center; /* Untuk mengatur posisi teks di tengah */
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 90%; /* Mengatur posisi caption di tengah vertikal */
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%; /* Sesuaikan lebar tombol prev dan next sesuai kebutuhan */
+  }
+  
+  /* Jika ingin mengatur warna tombol prev dan next */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%);
+  }
+  
+  /* Jika ingin mengatur warna caption */
+  .carousel-caption {
+    color: #fff; /* Sesuaikan warna caption sesuai kebutuhan */
+  }
+  
